@@ -27,5 +27,4 @@ if ctypes.windll.shell32.IsUserAnAdmin() == 1:
         os.system('slmgr -ipk ' + df.iat[int(b),2])
         os.system('slmgr /skms win.kms.pub')
         os.system('slmgr /ato')
-        os.system('start slui.exe')
-        print('我们完成了激活，请检查是否激活完成，如果没有，请检查你的系统版本，然后重新运行此程序。')
+        ex = getpass.getpass(prompt='我们完成了激活，请检查是否激活完成，如果没有，请检查你的系统版本，然后重新运行此程序。')
