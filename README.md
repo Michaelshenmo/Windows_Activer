@@ -8,4 +8,4 @@ This tools only install the current key on your device, and it is simple, even i
 
 ##### Star History
 
-![Star History](https://www.star-history.com/#Michaelshenmo/Windows_Activer&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=wyf9/sleepy&type=Date)](https://star-history.com/#Michaelshenmo/Windows_Activer&Date)
